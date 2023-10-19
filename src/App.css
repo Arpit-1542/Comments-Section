@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #afdbfa;
+  font-family: poppins;
+  padding: 0 200px;
+  text-align: start;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+  color: #292949;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.form input {
+  width: 300px;
+  height: 50px;
+  padding-left: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.form .button {
+  width: 200px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #0084c1;
+  color: white;
+  font-size: 18px;
+}
+
+.form textarea {
+  width: 300px;
+  height: 130px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+hr:last-child {
+  margin-bottom: 0;
+}
+
+hr {
+  width: 100%;
+  height: 4px;
+  background-color: black;
+  margin: 30px 0;
+}
+
+.m-t {
+  margin-bottom: -45px;
+}
+
+img {
+  width: 550px;
+  margin-right: 30px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+}
+
+.counter .count {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0084c1;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 18px;
+  /* padding: 0 50px; */
+}
+
+.comment1 {
+  width: 100%;
+  height: 230px;
+  background-color: #bbedfcad;
+  padding: 20px 20px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.comment1 .round-name {
+  display: flex;
+  align-items: start;
+}
+
+.comment1 .comment {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.comment1 .round-name .form-name {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.comment1 .round-name .round {
+  background-color: #0084c1;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.comment1 .round-name p {
+  /* padding: px 20px; */
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 10px;
+  /* position: absolute;
+  left: 0;
+  bottom: 0; */
+}
+
+.comment1 .like-dislike {
+  width: 100%;
+  padding: 0 20px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.comment1 .comment {
+  margin-left: 60px;
+}
+
+.star {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 20px;
+  margin-right: 20px;
+}
